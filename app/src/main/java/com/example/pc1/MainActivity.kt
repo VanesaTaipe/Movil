@@ -35,7 +35,6 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
     @Composable
     fun presentacion(modifier: Modifier = Modifier) {
         val perfilImage = painterResource(id = R.drawable.perfila)
@@ -58,8 +57,8 @@ class MainActivity : ComponentActivity() {
             )
             Spacer(modifier = Modifier.height(8.dp))
 
-            Text(text = "Full Name", fontSize = 30.sp, fontWeight = FontWeight.Bold)
-            Text(text = "Title", fontSize = 18.sp)
+            Text(text = "Javier Perez", fontSize = 30.sp, fontWeight = FontWeight.Bold)
+            Text(text = "Comunicador", fontSize = 18.sp)
 
             Spacer(modifier = Modifier.weight(1f))
 
@@ -71,7 +70,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.size(24.dp)
                 )
                 Spacer(modifier = Modifier.width(8.dp))
-                Text(text = "+00 (00) 000 000", fontSize = 15.sp)
+                Text(text = "+123456987", fontSize = 15.sp)
             }
 
             Spacer(modifier = Modifier.height(8.dp))
@@ -99,7 +98,6 @@ class MainActivity : ComponentActivity() {
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(text = "email@domain.com", fontSize = 15.sp)
             }
-
             Spacer(modifier = Modifier.height(32.dp))
         }
     }
